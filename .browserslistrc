@@ -1,4 +1,12 @@
-> 1%
-last 2 versions
+> 0.5%
+last 5 versions
 not dead
 not ie 11
+not op_mini all
+
+# base on `https://caniuse.com/mdn-api_canvasrenderingcontext2d_gettransform`
+firefox >= 70
+edge >= 79
+chrome >= 68
+safari >= 13
+opera >= 55
