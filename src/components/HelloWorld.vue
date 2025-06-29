@@ -84,19 +84,15 @@
     </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
+<script setup lang="ts">
+import { defineProps } from 'vue';
 
-export default defineComponent({
-    name: 'HelloWorld',
-    props: {
-        msg: String,
-    },
-});
+defineProps<{
+    msg: string;
+}>();
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style lang="scss">
 h3 {
     margin: 40px 0 0;
 }
